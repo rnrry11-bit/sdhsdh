@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: dragon-castle
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: TEACHER_PASSWORD
+        sync: false

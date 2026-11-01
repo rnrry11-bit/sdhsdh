@@ -1,0 +1,8 @@
+{
+  "name": "dragon-castle",
+  "version": "1.0.0",
+  "description": "문장 성분 용의 성 - 중학교 국어 문장 성분 모둠 활동 게임",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
